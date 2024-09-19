@@ -1,0 +1,706 @@
+*{
+    box-sizing:border-box;
+    
+    margin:0;
+    padding:0;
+}
+html,body{
+    background:#f3f3f3;
+}
+@keyframes start{
+	    from{
+	    margin-top:100px;
+        opacity: 0;
+	    }
+	    
+    }
+.contents{
+    width:100%;
+    height: initial;
+    display:flex;
+    flex-wrap:wrap;
+    background:none;
+    padding:10px 10px 10px 10px;
+    border:none;
+    align-items:center;
+    justify-content:center;
+    animation:start 1.0s linear;
+}
+.nav_items{
+    box-shadow:5px 5px 5px rgba(0,82,101,0.5);
+    border:solid 1px rgb(0,112,224);
+}
+.nav_items .nav_items_android{
+padding:10px 10px 10px 10px;
+display:flex;
+justify-content:center;
+align-items:center;
+width:50px;
+height:50px;
+border:solid 1px rgb(0,112,224);
+border-radius:15px;
+position: fixed;
+right:10px;
+top:10px;
+background:white;
+z-index:1000;
+animation:start 1.0s linear;
+}
+.nav_items_android .image{
+    border:solid 1px rgb(0,112,224);
+    overflow: hidden;
+    background:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+}
+.image img{
+    width:30px;
+    height:initial;
+    border-radius:50%;
+}
+.nav_items .nav_items_android a{
+text-decoration:none;
+color:black;
+white-space:wrap;
+font-size:7px;
+text-align:center;
+font-family:sans-serif;
+font-weight:bold;
+}
+
+.voting-box{
+    border:solid 0px black;
+    width:95%;
+    height:initial;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border-radius:10px;
+    background:#fff;
+    padding:10px 10px 10px 10px;
+    box-shadow:0px 0px 5px rgba(10,0,100,0.5);
+    overflow: hidden;
+    padding-bottom:20px;
+}
+@font-face{
+    font-family:"Brinnan";
+    src:url("../fonts/Brinnan-Bold.otf");
+    -webkit-font-family:"Brinnan";
+    -moz-font-family:"Brinnan";
+    
+}
+.voting-box h1{
+    font-family: "Brinnan";
+    font-size:17px;
+    width:100%;
+    text-align:center;
+    color:black;
+    padding-bottom:10px;
+}
+.voting-box .live-poll{
+    width:250px;
+    height:300px;
+    display:flex;
+    align-items:flex-start;
+    justify-content:center;
+    border:solid 1px #b3b3b3;
+    transition:all 0.5s ease-in;
+    animation:start 0.5s linear;
+    padding-left:20px
+}
+.cast-vote-container{
+    position: relative;
+    top:5px;
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.cast-vote-container a{
+    //border:solid 1px rgb(53,117,224);
+    border-radius:10px;
+    padding:7px 7px 7px 7px;
+    transition:all 0.9s ease-in;
+    animation:start 1.0s linear;
+}
+.cast-vote-container button{
+    width:130px;
+    height:45px;
+    border-radius:10px;
+    color: white;
+    background:rgb(0,112,224);
+    border:none;
+    font-weight:bold;
+    box-shadow:2px 4px 8px rgba(0,102,204,0.5);
+    font-family:"Brinnan";
+}
+.cast-vote-container button:focus{
+    outline:none;
+}
+.cast-vote-container button:active{
+    background:skyblue;
+}
+footer{
+    width:100%;
+    font-size:9px;
+    color:black;
+    font-family:sans-serif;
+    text-align:center;
+}
+.form-input{
+    width:100%;
+    height:initial;
+    padding-bottom:10px;
+    transition:all 0.9s ease-in;
+    animation:start 1.8s linear;
+}
+.form-input .input-fa-fas{
+    width:inherit;
+    height:50px;
+    border-radius:10px;
+    box-shadow:2px 4px 8px rgba(0,102,204,0.5);
+    border:none;
+    margin-top:10px;
+    padding-top:4px;
+    padding-left:5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: all 0.4s ease-in;
+}
+.form-input .input-fa-fas div{
+    width: 15px;
+    height: 15px;
+    background: rgb(0,102,204);
+}
+.form-input .input-fa-fas input{
+    padding-left:10px;
+    outline: none;
+    border: none;
+    font-family:"Brinnan";
+}
+.form-input .input-fa-fas input:focus{
+    
+        outline:none;
+    
+}
+.form-input .input-fa-fas textarea{
+    padding-left:10px;
+    outline: none;
+    border: none;
+    font-family:"Brinnan";
+}
+.form-input .input-fa-fas textarea:focus{
+    
+        outline:none;
+    
+}
+
+.login-form-box{
+    border:solid 0px black;
+    width:50%;
+    height:initial;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border-radius:10px;
+    background:#fff;
+    padding:10px 10px 30px 10px;
+    box-shadow:0px 0px 5px rgba(10,0,100,0.5);
+    transition:all 0.5s ease-in;
+    animation:start 1.0s linear;
+}
+.login-form-box h1{
+    font-family: "Brinnan";
+    font-size:17px;
+    width:100%;
+    text-align:center;
+    color:black;
+    padding-bottom:10px;
+}
+#login-avatar-fa-fas{
+    width: 100px;
+    height: 100px;
+    background: rgb(0,112,224);
+    transition:all 0.5s ease-in;
+    animation:start 1.0s linear;
+}
+.account-avatar-fa-fas{
+    width: 100px;
+    height: 100px;
+    border: solid 2px rgb(0,112,224);
+    overflow:hidden;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+}
+.account-avatar-fa-fas img{
+    width:100px;
+    height:initial;
+}
+.form_decision_link{
+    width: 100%;
+    font-family: "Brinnan";
+    font-weight: lighter;
+    text-align: right;
+    font-size: 10px;
+}
+
+.button-container{
+    position: relative;
+    top:5px;
+}
+.button-container a{
+    //border:solid 1px rgb(53,117,224);
+    border-radius:10px;
+    padding:7px 7px 7px 7px;
+}
+.button-container button{
+    width:90px;
+    height:30px;
+    border-radius:10px;
+    color: white;
+    background:rgb(0,112,224);
+    border:none;
+    font-weight:lighter;
+    box-shadow:2px 4px 8px rgba(0,102,204,0.5);
+    font-family:"Brinnan";
+    font-size: 10px;
+}
+.button-container button:focus{
+    outline:none;
+}
+.button-container button:active{
+    background:skyblue;
+}
+.button-container{
+    position: relative;
+    top: 10px;
+    right:-30%;
+}
+
+.loading_image{
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    border:solid:white;
+    overflow:hidden;
+    opacity:0.4;
+    position: absolute;
+    margin-top:-25px;
+    margin-left:94px;
+    display: none;
+}
+
+.candidate-profile{
+    width:100%;
+    height: initial;
+    display:flex;
+    align-items:center;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.candidate-profile img{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    border:solid 2px black;
+    
+}
+.candidate-profile .name-c{
+    display:flex;
+    flex-direction:column;
+    margin-left:5px;
+}
+.candidate-profile .name-c h2{
+    color: black;
+    font-family:"Brinnan";
+    font-size:15px;
+    width:100%;
+    word-wrap:break-word;
+}
+.candidate-profile .name-c b{
+    color: rgba(0,0,0,0.7);
+    font-family:sans-serif;
+    font-size:10px;
+    width:100%;
+    text-align:left;
+    
+}
+.candidate_option{
+    display: flex;
+    align-items: center;
+}
+.candidate_option input{
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+}
+.candidate_option .party_logo{
+    width: 25px;
+    height: 25px;
+}
+.login_t{
+    margin-top: 3px;
+}
+.login_t big{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+hr{
+    color: rgb(0,112,224);
+}
+.slide_2{
+    display: none;
+}
+.slide_3{
+    display: none;
+}
+
+.user_details{
+    width: initial;
+    height:initial;
+    display:flex;
+    align-items:center;
+    
+    background:whitesmoke;
+    border-bottom:solid 1px grey;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.user_details div{
+    width:20px;
+    height:18px;
+    background:rgb(0,112,224);
+}
+.user_details a{
+    text-decoration:none;
+    font-size:11px;
+    font-family:"Brinnan";
+    color:grey;
+    margin-left:3px;
+}
+.user_details input{
+    text-decoration:none;
+    font-size:11px;
+    font-family:"Brinnan";
+    color:grey;
+    background:whitesmoke;
+    border:none;
+    padding-left:3px;
+}
+.user_details select{
+    text-decoration:none;
+    font-size:11px;
+    font-family:"Brinnan";
+    color:grey;
+    background:whitesmoke;
+    border:none;
+    padding-left:3px;
+}
+
+.users_div{
+    width: 400px;
+    height:initial;
+    border: solid 2px rgb(0,112,224);
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    overflow: hidden;
+}
+.account_div{
+    display: flex;
+    padding-bottom: 10px;
+}
+.users_div img{
+    width: 25px;
+    height: initial;
+    border: solid 1px black;
+    height: 25px;
+
+}
+.users_container .user{
+    width: inherit;
+    height: 50px;
+    border: solid 1px rgb(0,112,224);
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    animation: none;
+    justify-content: space-between;
+    padding-top: 10px;
+    transition: all 0.7s ease-in;
+}
+.users_container .user .info{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    width: 100%;
+
+}
+.users_container .user .info h2{
+    text-decoration:none;
+    font-size:15px;
+    font-family:"Brinnan";
+    color:black;
+    border:none;
+    padding-left:3px;
+    width: 200px;
+}
+.users_container .user .info p{
+    text-decoration:none;
+    font-size:10px;
+    font-family:"Brinnan";
+    color:grey;
+    background:whitesmoke;
+    border:none;
+    padding-left:3px;
+}
+.action_buttons{
+    width: 30%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+
+}
+.action_buttons div{
+    width: 20px;
+    height:20px;
+    background: rgb(0,112,224);
+    margin-left: 10px;
+}
+.action_buttons div:active{
+    background: red;
+}
+
+
+.small_button{
+    position: relative;
+    
+    left: 10px;
+    width:60px;
+    height:20px;
+    border-radius:10px;
+    color: white;
+    background-color:rgb(0,112,224);
+    border:none;
+    font-weight:lighter;
+    box-shadow:2px 4px 8px rgba(0,102,204,0.5);
+    font-family:"Brinnan";
+    font-size: 10px;
+}
+.small_button:focus{
+    outline:none;
+}
+.small_button:active{
+    background:skyblue;
+}
+.message_popup_bg{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+.message_popup_bg .message_popup{
+    width: 350px;
+    height: 380px;
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 12px 12px 12px 12px;
+    overflow-y: scroll;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.message_popup .close{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.message_popup .close .x_button{
+    width: 20px;
+    height:20px;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+.message_popup .close .x_button:hover{
+    background: grey
+}
+
+.poll_popup_bg{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+.poll_popup_bg .poll_popup{
+    width: 350px;
+    height: 300px;
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 12px 12px 12px 12px;
+    overflow: scroll;
+}
+.poll_popup .close{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.poll_popup .close .x_button{
+    width: 20px;
+    height:20px;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    cursor: pointer;
+    position: fixed;
+}
+.poll_popup .close .x_button:hover{
+    background: grey
+}
+
+.select_box{
+    width: 200px;
+    height: 50px;
+    border:solid 2px black;
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+.message_area{
+    width: 100%;
+    height: initial;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.message_area .msg_box{
+    max-width: 190px;
+    height: initial;
+    background: rgb(0,112,224);
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow:2px 4px 8px rgba(0,102,204,0.5);
+     margin-top: 10px;
+}
+.msg_box p{
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "Brinnan";
+   
+}
+.msg_box a{
+    color: white;
+    font-size: 10px;
+    font-family: sans-serif;
+   
+}
+.poll_small_container{
+    width: initial;
+    height: initial;
+    border-radius: 10px;
+    border: solid 1px rgb(0,112,224);
+    box-shadow:2px 4px 8px rgba(0,102,204,0.5);
+    padding: 10px 10px 10px 10px;
+    
+    
+    
+}
+.poll_small_container .top{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    align-self: auto;
+    alignment-baseline: text-after-edge;
+}
+.poll_small_container .min_date{
+    width: 180px;
+    height:20px;
+    border:solid 1px grey;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    font-family: "Brinnan";
+    margin-top: 10px;
+}
+.poll_small_container label{
+    font-family: "Brinnan";
+    font-size: 16px;
+    
+    word-wrap: break-word;
+    word-spacing: 3px;
+    width: 200px;
+}
+.poll_small_container .biometric_icon{
+    background: rgb(0,92,184);
+    width: 50px;
+    height:50px;
+}
+.p_container{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 600px){
+    .login-form-box{
+        width: 90%;
+    }
+    
+}
+
+@media screen and (min-width: 900px){
+    .voting-box .live-poll{
+        width: 500px;
+    }
+    .live-poll .poll-content{
+        width: 100px;
+    }
+    
+}

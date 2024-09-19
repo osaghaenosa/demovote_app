@@ -1,0 +1,344 @@
+.avatar_icon{
+
+width:30px;
+
+height:30px;
+
+-webkit-mask:url("../images/1643574246323.png") center/contain no-repeat;
+
+mask:url("../images/1643574246323.png") center/contain no-repeat;
+
+background:black;
+
+}
+
+.home_icon{
+
+width:30px;
+
+height:30px;
+
+-webkit-mask:url("../images/1647088985022.png") center/contain no-repeat;
+
+mask:url("../images/1647088985022.png") center/contain no-repeat;
+
+background:black;
+
+}
+
+.setting_icon{
+
+width:30px;
+
+height:30px;
+
+-webkit-mask:url("../images/settings_line.png") center/contain no-repeat;
+
+mask:url("../images/settings_line.png") center/contain no-repeat;
+
+background:black;
+
+}
+
+.plus_icon{
+
+width:30px;
+
+height:30px;
+
+-webkit-mask:url("../images/plus.png") center/contain no-repeat;
+
+mask:url("../images/plus.png") center/contain no-repeat;
+
+background:black;
+
+}
+
+.quiz_icon{
+
+width:30px;
+
+height:30px;
+
+-webkit-mask:url("../images/108.png") center/contain no-repeat;
+
+mask:url("../images/108.png") center/contain no-repeat;
+
+background:black;
+
+}
+
+.noti_icon{
+
+width:30px;
+
+height:30px;
+
+-webkit-mask:url("../images/1647089069063.png") center/contain no-repeat;
+
+mask:url("../images/1647089069063.png") center/contain no-repeat;
+
+background:black;
+
+}
+
+.upload_icon{
+
+width:30px;
+
+height:30px;
+
+-webkit-mask:url("../images/icon-upload.png") center/contain no-repeat;
+
+mask:url("../images/icon-upload.png") center/contain no-repeat;
+
+background:black;
+
+}
+
+.file_icon{
+
+width:30px;
+
+height:30px;
+
+-webkit-mask:url("../images/file.svg") center/contain no-repeat;
+
+mask:url("../images/file.svg") center/contain no-repeat;
+
+background:black;
+
+}
+
+.pin_icon{
+
+width:30px;
+
+height:30px;
+
+-webkit-mask:url("../images/564.png") center/contain no-repeat;
+
+mask:url("../images/564.png") center/contain no-repeat;
+
+background:black;
+
+}
+
+.farrow_icon{
+
+width:30px;
+
+height:30px;
+
+-webkit-mask:url("../images/993.png") center/contain no-repeat;
+
+mask:url("../images/993.png") center/contain no-repeat;
+
+background:black;
+
+}
+
+.image_icon{
+
+width:30px;
+
+height:30px;
+
+-webkit-mask:url("../images/ic_pic.png") center/contain no-repeat;
+
+mask:url("../images/ic_pic.png") center/contain no-repeat;
+
+background:black;
+
+}
+
+.delete_icon{
+
+width:20px;
+
+height:20px;
+
+-webkit-mask:url("../images/trash_bin.png") center/contain no-repeat;
+
+mask:url("../images/trash_bin.png") center/contain no-repeat;
+
+background:black;
+
+}
+
+
+
+.send_icon{
+
+width:20px;
+
+height:20px;
+
+-webkit-mask:url("../images/kindpng_1498854.png") center/contain no-repeat;
+
+mask:url("../images/kindpng_1498854.png") center/contain no-repeat;
+
+background:black;
+
+}
+
+
+
+.love_icon{
+
+	width: 50px;
+
+	height: 50px;
+
+	-webkit-mask: url("../images/pngfind.com-heart-png-84923.png") center/contain no-repeat;
+
+	mask: url("../images/pngfind.com-heart-png-84923.png") center/contain no-repeat;
+
+	background: black;
+
+}
+
+.message_icon{
+
+	width: 50px;
+
+	height: 50px;
+
+	-webkit-mask: url("../images/1647089127581.png") center/contain no-repeat;
+
+	mask: url("../images/1647089127581.png") center/contain no-repeat;
+
+	background: black;
+
+}
+
+.login-avatar_icon{
+
+	width:30px;
+
+height:30px;
+
+-webkit-mask:url("../images/1643574246323.png") center/contain no-repeat;
+
+mask:url("../images/1643574246323.png") center/contain no-repeat;
+
+background:black;
+
+}
+
+.avatar_input_icon{
+
+	width:30px;
+
+height:30px;
+
+-webkit-mask:url("../images/1643574246323.png") center/contain no-repeat;
+
+mask:url("../images/1643574246323.png") center/contain no-repeat;
+
+background:black;
+
+}
+
+.password_input_icon{
+
+	width:30px;
+
+height:30px;
+
+-webkit-mask:url("../images/61457.png") center/contain no-repeat;
+
+mask:url("../images/61457.png") center/contain no-repeat;
+
+background:black;
+
+}
+
+.email_input_icon{
+    width:30px;
+    height:30px;
+
+    -webkit-mask:url("../images/20230308_163208.png") center/contain no-repeat;
+
+    mask:url("../images/20230308_163208.png") center/contain no-repeat;
+
+    background:black;
+
+}
+
+.biometric_icon{
+    width:30px;
+    height:30px;
+
+    -webkit-mask:url("../images/biometric.png") center/contain no-repeat;
+
+    mask:url("../images/biometric.png") center/contain no-repeat;
+
+    background:black;
+
+}
+.phone_icon{
+    width:30px;
+    height:30px;
+
+    -webkit-mask:url("../images/phone-512.webp") center/contain no-repeat;
+
+    mask:url("../images/phone-512.webp") center/contain no-repeat;
+
+    background:black;
+
+}
+
+.location_icon{
+    width:30px;
+    height:30px;
+
+    -webkit-mask:url("../images/location.png") center/contain no-repeat;
+
+    mask:url("../images/location.png") center/contain no-repeat;
+
+    background:black;
+
+}
+
+.down_arrow_icon{
+
+width:30px;
+
+height:30px;
+
+-webkit-mask:url("../images/995.png") center/contain no-repeat;
+
+mask:url("../images/995.png") center/contain no-repeat;
+
+background:black;
+
+}
+
+.up_arrow_icon{
+
+width:30px;
+
+height:30px;
+
+-webkit-mask:url("../images/994.png") center/contain no-repeat;
+
+mask:url("../images/994.png") center/contain no-repeat;
+
+background:black;
+
+}
+.logo_icon{
+
+    width: 50px;
+
+    height: 50px;
+
+    -webkit-mask: url("../images/logo.png") center/contain no-repeat;
+
+    mask: url("../images/logo.png") center/contain no-repeat;
+
+    background: black;
+
+}
+

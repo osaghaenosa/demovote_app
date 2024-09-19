@@ -1,0 +1,10 @@
+<div class="slide_3">
+<h1>Success</h1>
+
+    <hr>
+    <br>
+    <center>
+    <img src="images/20230309_082919.png" style="width:100px;height:100px">
+    <p style="text-align:center justify; font-family:sans-serif;font-size:10px">You have Successfully Voted for the Programme <big><?php if(isset($_SESSION["pg"])){echo $_SESSION["pg"];} ?></big>.<br><b>N.B.</b> Voting is only done ONCE that means, you cannot be able to vote for this programme again. Thank you</p>
+    </center>
+</div>

@@ -1,0 +1,9 @@
+<div class="nav_items">
+    <div class="nav_items_android"> 
+			<a href="account.php">
+       <div class="image">
+           <img src=<?php $new_filename="users/".$_SESSION["id"]."/images/avatar.jpg"; echo $new_filename; ?>>
+       </div>
+			<?php echo $_SESSION["firstname"]." ".$_SESSION["surname"]; ?></a>
+		</div>
+</div>

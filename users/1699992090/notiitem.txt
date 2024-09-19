@@ -1,0 +1,28 @@
+<div class="msg_box">
+            <p>Hello.</p>
+                            
+        </div>
+        
+<div class="msg_box">
+
+            <p>You have been selected to be among those Who will participate for the election of Best in Cooking,<br> Good Luck in getting people to vote for you.<br><small><b>NOTE</b> This Election is ment to be free and fair, if any illegal processes is discovered, you can be forfeited or even banned from voting for life.</small></p>
+
+                            
+
+        </div>
+
+        
+<div class="msg_box">
+
+            <p>You have been selected to be among those Who will participate for the election of Class Rep ,<br> Good Luck in getting people to vote for you.<br><small><b>NOTE</b> This Election is ment to be free and fair, if any illegal processes is discovered, you can be forfeited or even banned from voting for life.</small></p>
+
+                            
+
+        </div>
+
+        
+<div class="msg_box">
+            <p>Dear Admin <br> I want to request for a verification of my account.<br>Please Check my details to see if it is correct</p>
+                            
+        </div>
+        
